@@ -18,7 +18,7 @@
      *
      * Alternatively, create your own in the <style> tag below!
      */
-    theme: 'tilde-dark',
+    theme: 'gruvbox-dark',
 
     /**
      * Action to take when the clock is clicked. Options include:
@@ -31,7 +31,7 @@
     /**
      * The delimiter between the hours, minutes and seconds on the clock.
      */
-    clockDelimiter: ' – ',
+    clockDelimiter: ':',
 
     /**
      * Show seconds on the clock. A monospaced font is recommended for this.
@@ -46,7 +46,7 @@
     /**
      * Show a twenty-four-hour clock instead of a twelve-hour clock.
      */
-    clockTwentyFourHour: true,
+    clockTwentyFourHour: false,
 
     /**
      * Force an IANA timezone. Useful when attempting to prevent browser
@@ -71,7 +71,7 @@
     /**
      * Open triggered queries in a new tab.
      */
-    queryNewTab: true,
+    queryNewTab: false,
 
     /**
      * The delimiter between a command key and a path. For example, you'd type
@@ -156,12 +156,17 @@
       {
         key: '*',
         search: '/search?q={}',
-        url: 'https://www.google.com',
+        url: 'https://www.bing.com',
       },
       {
         key: 'bin',
         search: '/search?q={}',
         url: 'https://www.bing.com',
+      },
+      {
+        key: 'goo',
+        search: '/search?q={}',
+        url: 'https://www.google.com',
       },
       {
         key: 'ddg',
