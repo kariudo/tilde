@@ -1,5 +1,9 @@
 # Tilde
 
+Forked from cadejscroggins/tilde and modified for personal preferences.
+
+Published to github pages at [kariudo.github.io/tilde](https://kariudo.github.io/tilde/index.html).
+
 Inspired by [r/startpages](https://www.reddit.com/r/startpages)&mdash;the idea
 is to have a browser homepage that is functional and sexy.
 
@@ -10,7 +14,7 @@ This is how you can use Tilde out of the box, but it&rsquo;s
 
 - To go to a site, type the corresponding key and press return.
 - To view the available sites and their keys, type a question mark.
-- If your input doesn&rsquo;t match a key, a generic Google search will be
+- If your input doesn&rsquo;t match a key, a generic Bing search will be
   triggered.
 - To search a site, type a single quote after the site&rsquo;s key, followed by
   your query.
@@ -24,7 +28,7 @@ This is how you can use Tilde out of the box, but it&rsquo;s
 #### Searching
 
 - Entering `anything` will
-  [search Google for anything](https://www.google.com/search?q=anything).
+  [search bing for anything](https://www.bing.com/search?q=anything).
 - Entering `g'tilde` will
   [search GitHub for tilde](https://github.com/search?q=tilde).
 - Entering `y'vox` will
